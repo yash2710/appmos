@@ -1,3 +1,4 @@
+package com.itnu.mos_cl102;
 import java.util.Random;
 
 import com.itnu.mos_cl102.R;

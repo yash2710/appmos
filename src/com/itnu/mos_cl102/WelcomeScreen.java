@@ -18,7 +18,7 @@ public class WelcomeScreen extends ListActivity {
 		setContentView(R.layout.welcome_screen);
 		setListAdapter(new ArrayAdapter<String>(WelcomeScreen.this,
 				android.R.layout.simple_expandable_list_item_1, display));
-//		ListView list = getListView();
+		ListView list = getListView();
 	}
 
 	@Override

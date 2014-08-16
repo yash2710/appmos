@@ -27,7 +27,7 @@ public class WelcomeScreen extends ListActivity {
 		super.onListItemClick(l, v, position, id);
 		Class c;
 		try {
-			c = Class.forName("com.itnu.mos_cl101." + classes[position]);
+			c = Class.forName("com.itnu.mos_cl102." + classes[position]);
 			Intent i = new Intent(WelcomeScreen.this, c);
 			startActivity(i);
 		} catch (ClassNotFoundException e) {
